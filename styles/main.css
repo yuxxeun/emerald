@@ -1,6 +1,10 @@
-body { 
-    background-color: #fff;  color: rgba(0,0,0,0.8);
-}
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
+
+
 .dark-mode body {
     background-color: #091a28;  color: #ebf4f1;
 }

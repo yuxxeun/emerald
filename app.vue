@@ -1,11 +1,12 @@
 <template>
   <div>
-    <NuxtWelcome />
     <NuxtLoadingIndicator/>
+    <Diamond/>
   </div>
 </template>
 
 <script setup lang="ts">
+import './styles/main.css'
 useSeoMeta({
   title: 'Emerald.',
   ogTitle: 'Emerald.',
